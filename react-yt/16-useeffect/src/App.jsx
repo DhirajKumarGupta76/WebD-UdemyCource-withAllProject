@@ -15,6 +15,7 @@ const App = () => {
     console.log('B ki value change ho gyi');
   }
 
+//when change in a ,then achanging is call;
   useEffect(function(){
     aChanging()
   },[a])
@@ -42,3 +43,26 @@ const App = () => {
 }
 
 export default App
+
+
+
+// ⚛️ useEffect in React
+
+// useEffect is a React Hook used to perform side effects in a component.
+
+// A side effect is something that happens outside the normal UI rendering, such as:
+
+// Fetching data from an API
+// Calling an external API
+// Updating the document title
+// Setting timers
+// Adding event listeners
+// Running code when a component loads or when data changes
+
+
+
+// import { useEffect } from "react";
+
+// useEffect(() => {
+//   // side-effect code
+// }, []);

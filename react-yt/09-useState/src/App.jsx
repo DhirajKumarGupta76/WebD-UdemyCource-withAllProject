@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 const App = () => {
-
+//useStateSnippet:use for set values
   const [num, setNum] = useState(0)
-
+//change happened by react so function call.
   function increaseNum() {
     setNum(num+1)
   }

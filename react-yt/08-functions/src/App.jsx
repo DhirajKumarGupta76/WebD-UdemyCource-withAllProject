@@ -12,3 +12,16 @@ const App = () => {
 }
 
 export default App
+
+// function App() {
+//   const handleChange = (event) => {
+//     console.log(event.target.value);
+//   };
+
+//   return (
+//     <input
+//       type="text"
+//       onChange={handleChange}
+//     />
+//   );
+// }

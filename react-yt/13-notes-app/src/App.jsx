@@ -4,12 +4,12 @@ const App = () => {
 
   const [title, setTitle] = useState('')
   const [details, setDetails] = useState('')
-
+//use arrays to store title && detailed ;
   const [task, setTask] = useState([])
 
   const submitHandler = (e) => {
     e.preventDefault()
-
+//copy the previous task;
     const copyTask = [...task];
 
     copyTask.push({ title, details })

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const App = () => {
-
+//handle to refresh on submit of form 
   const submitHandler = (e) => {
     e.preventDefault()
     console.log('Form Submitted');
